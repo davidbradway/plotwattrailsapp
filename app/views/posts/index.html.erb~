@@ -1,0 +1,9 @@
+<h1>Rails Plotwatt App</h1>
+
+<% @posts.each do |post| %>
+  <h2><%= link_to(post.title, post) %></h2>
+  <p><%= post.content %></p>
+  <hr />
+<% end %>
+
+<p><%= link_to("Add a new post", new_post_path) %>

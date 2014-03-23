@@ -36,5 +36,9 @@ rails c
 git remote add origin git@bitbucket.org:davidbradway/plotwattrailsapp.git
 
 history | grep rails
-
 ```
+
+##Future Plans
+Do charts next
+Look here http://railscasts.com/episodes/223-charts
+and here http://ankane.github.io/chartkick https://github.com/ankane/chartkick

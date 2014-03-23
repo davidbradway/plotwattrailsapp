@@ -11,7 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140210200306) do
+ActiveRecord::Schema.define(version: 20140323093119) do
+
+  create_table "measurements", force: true do |t|
+    t.decimal  "AlwaysOn"
+    t.decimal  "HeatingAC"
+    t.decimal  "Refrigeration"
+    t.decimal  "Dryer"
+    t.decimal  "Cooking"
+    t.decimal  "Other"
+    t.datetime "DatetimeMidpoint"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "posts", force: true do |t|
     t.string   "title"

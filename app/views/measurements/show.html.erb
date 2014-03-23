@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Alwayson:</strong>
+  <%= @measurement.AlwaysOn %>
+</p>
+
+<p>
+  <strong>Heatingac:</strong>
+  <%= @measurement.HeatingAC %>
+</p>
+
+<p>
+  <strong>Refrigeration:</strong>
+  <%= @measurement.Refrigeration %>
+</p>
+
+<p>
+  <strong>Dryer:</strong>
+  <%= @measurement.Dryer %>
+</p>
+
+<p>
+  <strong>Cooking:</strong>
+  <%= @measurement.Cooking %>
+</p>
+
+<p>
+  <strong>Other:</strong>
+  <%= @measurement.Other %>
+</p>
+
+<p>
+  <strong>Datetimemidpoint:</strong>
+  <%= @measurement.DatetimeMidpoint %>
+</p>
+
+<%= link_to 'Edit', edit_measurement_path(@measurement) %> |
+<%= link_to 'Back', measurements_path %>

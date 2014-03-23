@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  AlwaysOn: 9.99
+  HeatingAC: 9.99
+  Refrigeration: 9.99
+  Dryer: 9.99
+  Cooking: 9.99
+  Other: 9.99
+  DatetimeMidpoint: 2014-03-23 10:31:19
+
+two:
+  AlwaysOn: 9.99
+  HeatingAC: 9.99
+  Refrigeration: 9.99
+  Dryer: 9.99
+  Cooking: 9.99
+  Other: 9.99
+  DatetimeMidpoint: 2014-03-23 10:31:19

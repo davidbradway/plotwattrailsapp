@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/home/bradway/Downloads/railsPlotwattApp"
+			"path": "/run/user/1000/gvfs/sftp:host=192.168.0.16,user=ubuntu/var/www/HomeOccupancy"
 		}
 	]
 }
